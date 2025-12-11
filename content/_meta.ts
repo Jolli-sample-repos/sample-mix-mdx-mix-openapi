@@ -7,7 +7,7 @@ export default {
   'valid-configuration-guide': 'Valid - Configuration Guide',
   'valid-getting-started': 'Valid - Getting Started',
   'api-reference': {
-    title: 'API Reference',
+    title: 'CHANGED TITLE',
     type: 'menu',
     items: {
       'valid-jolli-api-yaml': { title: 'Valid - Jolli API (YAML)', href: '/api-docs/valid-jolli-api-yaml' },
