@@ -1,12 +1,13 @@
 import { redirect, notFound } from 'next/navigation'
 import ApiDocsClient from '../../../components/ApiDocsClient'
 
-const VALID_SLUGS = ['valid-jolli-api-yaml']
+const VALID_SLUGS = ['valid-jolli-api-yaml', 'valid-pet-store-api-yaml']
 
 export function generateStaticParams() {
   return [
     { slug: [] },
-    { slug: ['valid-jolli-api-yaml'] }
+    { slug: ['valid-jolli-api-yaml'] },
+    { slug: ['valid-pet-store-api-yaml'] }
   ]
 }
 
